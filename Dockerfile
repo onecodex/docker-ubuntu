@@ -6,6 +6,10 @@ RUN apt-get update
 # Install Git
 RUN apt-get install -y git
 
+# Install make and gcc
+RUN apt-get install -y build-essential
+RUN apt-get install -y gcc
+
 # Install latest security updates now, and on build
 RUN grep security /etc/apt/sources.list > /tmp/security.list
 RUN apt-get -y -o Dir::Etc::SourceList=/tmp/security.list upgrade
