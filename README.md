@@ -1,6 +1,6 @@
 # refgenomics/ubuntu
 
-*Note: This repository forked from the original great work created by Frank Macreery*
+*Note: This repository forked from the original great work created by Frank Macreery.*
 
 [![Docker Repository on Quay.io](https://quay.io/repository/refgen/ubuntu/status)](https://quay.io/repository/refgenomics/ubuntu)
 
