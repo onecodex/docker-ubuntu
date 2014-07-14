@@ -2,7 +2,7 @@
 
 *Note: This repository forked from the original great work created by Frank Macreery.*
 
-[![Docker Repository on Quay.io](https://quay.io/repository/refgen/ubuntu/status)](https://quay.io/repository/refgenomics/ubuntu)
+[![Docker Repository on Quay.io](https://quay.io/repository/refgen/ubuntu/status)](https://quay.io/repository/refgenomics/docker-ubuntu)
 
 Ubuntu base image with security patches, git, and [Bats](https://github.com/sstephenson/bats). The base for all other refgenomics docker images.
 
