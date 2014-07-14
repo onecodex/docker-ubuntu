@@ -1,5 +1,5 @@
 DOCKER = docker
-REPO = quay.io/aptible/ubuntu
+REPO = quay.io/refgenomics/docker-ubuntu
 
 TAG = $(shell git rev-parse --abbrev-ref HEAD 2>/dev/null)
 ifeq ($(TAG), master)
