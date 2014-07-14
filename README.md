@@ -1,13 +1,15 @@
-# ![](https://gravatar.com/avatar/11d3bc4c3163e3d238d558d5c9d98efe?s=64) aptible/ubuntu
+# refgenomics/ubuntu
 
-[![Docker Repository on Quay.io](https://quay.io/repository/aptible/ubuntu/status)](https://quay.io/repository/aptible/ubuntu)
+*Note: This repository forked from the original great work created by Frank Macreery*
 
-Ubuntu base image with custom Aptible patches and Dockerfile building tools.
+[![Docker Repository on Quay.io](https://quay.io/repository/refgen/ubuntu/status)](https://quay.io/repository/refgenomics/ubuntu)
+
+Ubuntu base image with security patches, git, and [Bats](https://github.com/sstephenson/bats). The base for all other refgenomics docker images.
 
 ## Installation and Usage
 
-    docker pull quay.io/aptible/ubuntu
-    docker run -i -t quay.io/aptible/ubuntu
+    docker pull quay.io/refgenomics/ubuntu
+    docker run -i -t quay.io/refgenomics/ubuntu
 
 ## Available Tags
 
@@ -33,6 +35,8 @@ To push the Docker image to Quay, run the following command:
     make release
 
 ## Copyright and License
+
+Originally created by [Frank Macreery](https://github.com/fancyremarker) @ Aptible.
 
 MIT License, see [LICENSE](LICENSE.md) for details.
 
