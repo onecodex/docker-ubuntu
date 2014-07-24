@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Frank Macreery <frank@macreery.com>
+MAINTAINER Nik Krumm <nik@refgenomics.com>
 
 RUN apt-get update
 
@@ -10,7 +10,7 @@ RUN apt-get install -y git
 RUN apt-get install -y build-essential
 RUN apt-get install -y gcc
 RUN apt-get install -y libz-dev
-RUN apt-get install -y python 
+RUN apt-get install -y python
 
 # Install latest security updates now, and on build
 RUN grep security /etc/apt/sources.list > /tmp/security.list
